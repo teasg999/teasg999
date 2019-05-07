@@ -1,0 +1,18 @@
+.fixedAddFri{
+	display: none;
+}
+@media screen and (max-width: 800px) {
+	.fixedAddFri{
+		display: block;
+		position: fixed;
+		bottom: -7px;
+		width: 100%;
+		z-index: 99999;
+	}
+}
+.content-wrap .container:last-child{
+	margin-bottom:100px !important;
+}
+body{
+	background-color: #fff;
+}
